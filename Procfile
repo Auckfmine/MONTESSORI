@@ -3,4 +3,4 @@ release: python manage.py migrate --no-input
 
 
 
-web :gunicorn auth.wsgi
+web: gunicorn auth.wsgi
